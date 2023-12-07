@@ -1,0 +1,73 @@
+:root {
+  --clr-primary-100: hsl(259, 100%, 65%);
+  --clr-primary-200: hsl(0, 100%, 67%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(0, 0%, 94%);
+  --clr-neutral-300: hsl(0, 0%, 86%);
+  --clr-neutral-400: hsl(0, 1%, 44%);
+  --clr-neutral-500: hsl(0, 0%, 8%);
+}
+
+body {
+  background-color: var(--clr-neutral-200);
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 767px) {
+  .all {
+    width: 100%;
+  }
+  .section-two p {
+    font-size: 30px;
+  }
+}
+
+/* First-Section */
+.section-one {
+  display: flex;
+}
+.section-one p {
+  color: var(--clr-neutral-400);
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+.section-one input {
+  border-radius: 5px;
+  padding: 12px;
+  border-color: var(--clr-neutral-300);
+  font-size: 20px;
+  width: 70%;
+}
+.section-one input:hover {
+  color: var(--clr-primary-100);
+  border-color: var(--clr-primary-100);
+}
+.all {
+  background-color: var(--clr-neutral-100);
+  width: 50%;
+  margin: 20% 0 0 22%;
+  padding: 3% 3% 0 3%;
+  border-radius: 20px;
+  border-end-end-radius: 150px;
+}
+input {
+  width: 40%;
+}
+img {
+  background-color: var(--clr-primary-100);
+  border-radius: 100%;
+  width: 12%;
+}
+img:hover {
+  cursor: pointer;
+  background-color: var(--clr-neutral-500);
+}
+
+/* Second-Section */
+.section-two p {
+  font-size: 80px;
+  font-weight: bolder;
+  margin: 0;
+}
+.section-two span {
+  color: var(--clr-primary-100);
+}
